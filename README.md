@@ -91,7 +91,7 @@ farmconnect/
 
 ## Contact 
 
-For support or queries, please contact [Your Contact Information].
+For support or queries, please contact nelsonmwosa7@gmail.com.
 
 ---
 
