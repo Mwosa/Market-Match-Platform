@@ -2,43 +2,43 @@ You are an expert AI software engineer helping me build a web app for a hackatho
 
 ---
 
-🎯 Theme:
+Theme:
 “Building Human-Centered, Joy-Driven Solutions Using AI and Low-Code Tools.”
 
-🚜 Problem Statement:
+Problem Statement:
 Build a simple web platform for small-scale farmers to:
 1. View current local market prices for their produce.
 2. Get alerts if prices are high enough to sell.
 3. Connect with nearby buyers or markets based on their location and produce.
 
-🛠 Tech Stack:
+Tech Stack:
 - Frontend: HTML, CSS, JavaScript (Vanilla)
 - Backend: Use Supabase for storing data (use dummy API calls or mock data if needed)
 - No frameworks like React or Vue.
 - Make the code simple, modular, and mobile-friendly.
 
-🎨 UI Requirements:
+UI Requirements:
 - Clean and visually appealing dashboard.
 - "Login" (just a simple form).
 - Dashboard showing current market price for selected produce.
 - Button to "Find Buyers" nearby.
 - Animated alerts or messages like "Tomatoes selling at KES 50/kg in Gikomba! 🚀".
 
-⚙️ Functional Requirements:
+Functional Requirements:
 - HTML page with Login form.
 - Dashboard page after login.
 - JS fetches produce price and buyer info (use dummy data or fetch from a mock Supabase JSON object).
 - Smart alert when price > threshold (e.g., > 45 KES).
 - Buyers list includes location, phone number, and how much they want to buy.
 
-🧠 AI Content:
+AI Content:
 - Write delightful notification messages using natural language, like:
   “Hey Musa! Great news 🎉 Tomatoes are selling at KES 52/kg at Gikomba Market. Sell now!”
 
-🔐 Bonus:
+Bonus:
 - Add comments in the code for clarity.
 
-📁 Output Format:
+Output Format:
 1. `index.html`
 2. `styles.css`
 3. `script.js`
