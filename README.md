@@ -1,8 +1,8 @@
-# FarmConnect - Your Smart Market Partner 🌾
+# FarmConnect - Your Smart Market Partner
 
 FarmConnect is a web-based platform designed to empower small-scale farmers in Kenya by providing real-time market information, price alerts, and direct connections with potential buyers. The platform helps farmers make informed decisions about when and where to sell their produce for the best returns.
 
-## Features 🌟
+## Features 
 
 - **Real-time Market Prices**: Track current prices for various agricultural products across different markets
 - **Price Trend Analysis**: View market trends with intuitive indicators (rising, falling, or stable)
@@ -11,7 +11,7 @@ FarmConnect is a web-based platform designed to empower small-scale farmers in K
 - **Multi-Product Support**: Switch between different products to view their specific market data
 - **WhatsApp Integration**: Contact buyers directly through WhatsApp for business discussions
 
-## Supported Products 🥬
+## Supported Products 
 
 - 🍅 Tomatoes
 - 🌽 Maize
@@ -21,7 +21,7 @@ FarmConnect is a web-based platform designed to empower small-scale farmers in K
 - 🧅 Onions
 - 🥕 Carrots
 
-## Getting Started 🚀
+## Getting Started 
 
 1. Clone this repository:
    ```bash
@@ -35,7 +35,7 @@ FarmConnect is a web-based platform designed to empower small-scale farmers in K
 
 3. Open `index.html` in your web browser to start using the application.
 
-## Project Structure 📁
+## Project Structure 
 
 ```
 farmconnect/
@@ -46,7 +46,7 @@ farmconnect/
 └── README.md         # Project documentation
 ```
 
-## How It Works 🔄
+## How It Works 
 
 1. **Login**: Enter your name, location, and primary produce
 2. **Dashboard**: View current market prices, trends, and insights
@@ -54,7 +54,7 @@ farmconnect/
 4. **Find Buyers**: Connect with potential buyers in your area
 5. **Contact**: Reach out to buyers directly through WhatsApp
 
-## Features in Detail 📋
+## Features in Detail 
 
 ### Market Data
 - Real-time price updates
@@ -74,38 +74,22 @@ farmconnect/
 - Real-time data updates
 - Smooth animations and transitions
 
-## Technical Details 🛠️
+## Technical Details 
 
 - Built with vanilla JavaScript, HTML5, and CSS3
 - No external dependencies required
 - Responsive design using CSS Grid and Flexbox
 - Simulated API data (ready for backend integration)
 
-## Browser Support 🌐
+## Browser Support 
 
 - Chrome (latest)
 - Firefox (latest)
 - Safari (latest)
 - Edge (latest)
 
-## Future Enhancements 🔮
 
-- [ ] User authentication system
-- [ ] Real-time price notifications
-- [ ] Historical price charts
-- [ ] Weather forecasts integration
-- [ ] Transportation service integration
-- [ ] Mobile app version
-
-## Contributing 🤝
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License 📄
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact 📧
+## Contact 
 
 For support or queries, please contact [Your Contact Information].
 
