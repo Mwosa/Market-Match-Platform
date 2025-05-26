@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FarmConnect - Your Market Partner</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- LOGIN PAGE -->
+    <div id="loginPage" class="login-container">
+      <div class="login-card">
+        <div class="logo">
+          <h1>🌾 FarmConnect</h1>
+          <p>Your Smart Market Partner</p>
+        </div>
+        <form id="loginForm">
+          <div class="form-group">
+            <label for="farmerName">Your Name</label>
+            <input
+              type="text"
+              id="farmerName"
+              name="farmerName"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="location">Your Location</label>
+            <input
+              type="text"
+              id="location"
+              name="location"
+              placeholder="e.g., Kiambu, Nakuru"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="primaryProduce">Primary Produce</label>
+            <select id="primaryProduce" name="primaryProduce" required>
+              <option value="">Select your main crop</option>
+              <option value="tomatoes">🍅 Tomatoes</option>
+              <option value="maize">🌽 Maize</option>
+              <option value="beans">🫘 Beans</option>
+              <option value="potatoes">🥔 Potatoes</option>
+              <option value="kales">🥬 Kales</option>
+              <option value="onions">🧅 Onions</option>
+              <option value="carrots">🥕 Carrots</option>
+            </select>
+          </div>
+          <button type="submit" class="btn">
+            <span id="loginBtnText">Start Farming Smart 🚀</span>
+            <span id="loginLoader" class="loading hidden"></span>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- DASHBOARD PAGE -->
+    <div id="dashboardPage" class="dashboard">
+      <div class="container">
+        <!-- Header -->
+        <div class="header">
+          <h1>Welcome back, <span id="welcomeName">Farmer</span>! 👋</h1>
+          <p>Here's what's happening in the market today</p>
+          <!-- Adding product switcher -->
+          <div class="product-switcher">
+            <label for="productSwitch">Switch Product:</label>
+            <select id="productSwitch" class="form-control">
+              <option value="tomatoes">🍅 Tomatoes</option>
+              <option value="maize">🌽 Maize</option>
+              <option value="beans">🫘 Beans</option>
+              <option value="potatoes">🥔 Potatoes</option>
+              <option value="kales">🥬 Kales</option>
+              <option value="onions">🧅 Onions</option>
+              <option value="carrots">🥕 Carrots</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Alerts Section -->
+        <div id="alertsContainer"></div>
+
+        <!-- Market Stats -->
+        <div class="stats-grid">
+          <div class="stat-card">
+            <h3>🏷️ Current Price</h3>
+            <div class="price-display" id="currentPrice">KES 0/kg</div>
+            <div class="price-change" id="priceChange">Loading...</div>
+            <div class="market-info" id="marketInfo">
+              Fetching market data...
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <h3>📈 Market Trend</h3>
+            <div class="price-display" id="trendIndicator">📊</div>
+            <div class="market-info" id="trendDescription">
+              Analyzing trends...
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <h3>🎯 Your Target Price</h3>
+            <div class="price-display" id="targetPrice">KES 45/kg</div>
+            <div class="market-info">Price alert threshold</div>
+          </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="actions">
+          <button class="btn btn-secondary" id="findBuyersBtn">
+            🔍 Find Nearby Buyers
+          </button>
+          <button class="btn btn-success" id="refreshPricesBtn">
+            🔄 Refresh Prices
+          </button>
+        </div>
+
+        <!-- Buyers Section -->
+        <div class="buyers-section" id="buyersSection">
+          <h2>🤝 Nearby Buyers</h2>
+          <div id="buyersList"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
