@@ -25,12 +25,12 @@ FarmConnect is a web-based platform designed to empower small-scale farmers in K
 
 1. Clone this repository:
    ```bash
-   git clone [repository-url]
+   git clone https://github.com/Mwosa/Market-Match-Platform.git
    ```
 
 2. Open the project directory:
    ```bash
-   cd farmconnect
+   cd Market Match Platform
    ```
 
 3. Open `index.html` in your web browser to start using the application.
@@ -38,7 +38,7 @@ FarmConnect is a web-based platform designed to empower small-scale farmers in K
 ## Project Structure 
 
 ```
-farmconnect/
+Market Match Platform/
 │
 ├── index.html          # Main HTML file
 ├── styles.css         # CSS styles
